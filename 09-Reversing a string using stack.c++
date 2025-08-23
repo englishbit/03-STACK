@@ -9,6 +9,7 @@ stack<char>str;
 for(int i=0;i<s.length();i++){
     str.push(s[i]);
 }
+    //logic for output
 while(!str.empty()){
     char n_str=str.top();
     cout<<n_str;
@@ -20,4 +21,5 @@ cout<<endl;
     return 0;
 
 }
+
 
