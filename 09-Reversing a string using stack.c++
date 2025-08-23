@@ -18,4 +18,5 @@ while(!str.empty()){
 cout<<endl;
 
     return 0;
+
 }
