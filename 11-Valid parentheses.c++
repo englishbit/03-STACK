@@ -4,8 +4,10 @@ using namespace std;
 int main(){
 string s;
 stack<char>stak;
+    //logic for taking input
 cin>>s;
 
+    //logic for validating parentheses
 for(int i=0;i<s.length();i++){
 
     if(s[i]=='(' || s[i]=='{' || s[i]=='['){
@@ -33,6 +35,7 @@ for(int i=0;i<s.length();i++){
 }
 
 
+    //logic for output
 
 if(stak.empty()){
     cout<<"true"<<endl;
@@ -42,4 +45,5 @@ if(stak.empty()){
 
 
     return 0;
+
 }
