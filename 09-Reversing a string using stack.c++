@@ -2,7 +2,7 @@
 #include<stack>
 using namespace std;
 int main(){
-
+//logic for taking input
 string s;
 cin>>s;
 stack<char>str;
@@ -20,3 +20,4 @@ cout<<endl;
     return 0;
 
 }
+
