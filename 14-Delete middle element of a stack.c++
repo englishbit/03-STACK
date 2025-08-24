@@ -12,6 +12,7 @@ int main(){
         stak.push(x);
     }
 
+    //logic for deleting
     int size=stak.size();
     stack<int>temp;
     int count=0;
@@ -44,4 +45,5 @@ int main(){
     return 0;
 
 }
+
 
