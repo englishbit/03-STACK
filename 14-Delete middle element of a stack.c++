@@ -30,6 +30,7 @@ int main(){
         temp.pop();
     }
 
+    //logic for output
     while(!stak.empty()){
         int top=stak.top();
         stak.pop();
@@ -43,3 +44,4 @@ int main(){
     return 0;
 
 }
+
