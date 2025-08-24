@@ -22,18 +22,6 @@ for(int i=1;i<n;i++){
     //logic for output
 cout<<stak.size();
 
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 
 }
-
