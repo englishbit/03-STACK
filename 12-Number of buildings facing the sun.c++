@@ -4,6 +4,7 @@
 using namespace std;
 int array[max]={-1};
 int main(){
+    //logic for taking input
 int n;
 cin>>n;
 for(int i=0;i<n;i++){
@@ -32,4 +33,5 @@ cout<<stak.size();
 
 
     return 0;
+
 }
