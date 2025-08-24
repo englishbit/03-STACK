@@ -2,6 +2,7 @@
 #include<stack>
 using namespace std;
 int main(){
+    //logic for taking input
 int n;
 cin>>n;
 stack<int>stak1;
@@ -32,4 +33,5 @@ while(!stak1.empty()){
     }
     cout<<endl;
     return 0;
+
 }
