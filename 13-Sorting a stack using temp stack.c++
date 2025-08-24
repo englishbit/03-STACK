@@ -13,6 +13,7 @@ for(int i=0;i<n;i++){
     stak1.push(x);
 }
 
+    //logic for sorting process
 while(!stak1.empty()){
 
     int top=stak1.top();
@@ -35,3 +36,4 @@ while(!stak1.empty()){
     return 0;
 
 }
+
