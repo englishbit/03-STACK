@@ -3,6 +3,7 @@
 using namespace std;
 int main(){
     stack<int>stak;
+    //logic for taking input
     int n;
     cin>>n;
     for(int i=0;i<n;i++){
@@ -40,4 +41,5 @@ int main(){
 
 
     return 0;
+
 }
