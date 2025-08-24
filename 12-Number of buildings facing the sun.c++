@@ -10,6 +10,8 @@ cin>>n;
 for(int i=0;i<n;i++){
     cin>>array[i];
 }
+
+    //logic for main idea
 stack<int>stak;
 stak.push(array[0]);
 
@@ -25,3 +27,4 @@ cout<<stak.size();
     return 0;
 
 }
+
