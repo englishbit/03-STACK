@@ -27,7 +27,7 @@ while(!stak1.empty()){
         stak2.push(top);
     }
 
-
+    //logic for output
     while(!stak2.empty()){
         cout<<stak2.top()<<" ";
         stak2.pop();
@@ -36,4 +36,3 @@ while(!stak1.empty()){
     return 0;
 
 }
-
