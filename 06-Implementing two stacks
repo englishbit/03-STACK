@@ -1,0 +1,62 @@
+#include<iostream>
+using namespace std;
+#define MAX 1000000
+int stack[MAX];
+int top1=-1;
+int top2=MAX;
+
+void push1(int data){
+    if(top1+1==top2){
+        cout<<"stack one is full";
+        return;
+    }
+    top1++;
+    stack[top1]=data;
+}
+
+void push2(int data){
+    if(top2-1==top1){
+        cout<<"stack two is full";
+        return;
+    }
+    top2--;
+    stack[top2]=data;
+}
+
+int pop1(){
+    if(top1<0){
+        cout<<"stack one is empty";
+        return -1;
+    }
+    int x=stack[top1];
+    top1--;
+    return x;
+}
+
+int pop2(){
+    if(top2>=MAX){
+        cout<<"stack tow is empty";
+        return -1;
+    }
+
+    int x=stack[top2];
+    top2++;
+    return x;
+}
+
+int main(){
+    
+    push1(5);
+    push1(3);
+    push1(0);
+
+    push2(9);
+    push2(4);
+    push2(8);
+
+    cout<<pop1();
+    cout<<pop2();
+
+
+    return 0;
+}
