@@ -3,6 +3,7 @@ using namespace std;
 #define MAX 1000000
 int stack[MAX];
 int top=-1;
+//logic for push function
 void push(int data){
     if(top>=MAX-1){
         cout<<"stack is full";
@@ -48,3 +49,4 @@ int main(){
     return 0;
 
 }
+
