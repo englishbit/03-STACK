@@ -12,7 +12,7 @@ void push(int data){
     top++;
     stack[top]=data;
 }
-
+//logic for pop function
 void pop(){
     if(top<0){
         cout<<"stack is empty";
@@ -49,4 +49,5 @@ int main(){
     return 0;
 
 }
+
 
